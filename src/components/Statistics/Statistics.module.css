@@ -1,0 +1,18 @@
+.stat__wrap {
+    padding: 30px 0;
+}
+
+.stat__txt {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.stat__txt:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .statistics__text {
+        font-size: 30px;
+    }
+}
